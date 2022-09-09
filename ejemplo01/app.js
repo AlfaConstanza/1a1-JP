@@ -33,6 +33,7 @@ function myFunction() {
   document.getElementById("titulo").style.color = "red";
 }
 
+//se puede cambiar el color, sin necesidad de usar una fx
 
 /* tomado de pokegoogle
 document.getElementById("data").innerHTML =
@@ -41,8 +42,15 @@ document.getElementById("data").innerHTML =
 
 /* 
 DUDAS:  
-1) document get element tiene que ir dentro de una variable y no así document write, por qué?, se podría o no es necesario-RP: puede ir o no en una variable
-2) .innerHTMl, para buscar otras- RP: ejemplo .value, esta servirá para cambiar el valor dentro de input, que no serviría con el .innerHTML
-3) se lee de izq a dcha o de dcha a izq?? - RP: para ambos lados, no hay problema
-4) tengo un problema con los nombres, al repetir la palabra por ej linea 23 y 24, eso era peor con las funciones
+1) document get element tiene que ir dentro de una variable y no así document write, por qué?, se podría o no es necesario.
+RP: puede ir o no en una variable
+
+2) .innerHTMl, para buscar otras
+ RP: ejemplo .value, esta servirá para cambiar el valor dentro de input, que no serviría con el .innerHTML, ya que la etiqueta no lo permite al ser de autocierre.
+
+3) se lee de izq a dcha o de dcha a izq??
+ RP: para ambos lados, no hay problema
+
+4) tengo un problema con los nombres, al repetir la palabra por ej linea 23 y 24, eso era peor con las funciones 
+RP: si dentro del código está escrito una palabra no está dentro de comillas se refiere a una variable o a una función
 */
